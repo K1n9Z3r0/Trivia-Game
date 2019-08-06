@@ -12,14 +12,15 @@
 </head>
 
 <body>
-    <h1>Welcome to the trivia game!</h1>
-    <div>
+    <h1 id="header">Welcome to the trivia game!</h1>
+    <div id="instructions">
         <p>You will be givin 10 questions per round with just 10 seconds to answer each question.</p>
         <p>each round the questions will get more difficult.</p>
         <p>good luck!</p>
+        <button class="btn btn-primary" id="start">Start the game</button>
     </div>
 
-    <button class="btn btn-primary" id="start">Start the game</button>
+
 
     <h2 id="time"></h2>
     <div id="game"></div>
@@ -29,6 +30,7 @@
         integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script src="assets/javascript/questions.js"></script>
     <script src="assets/javascript/app.js"></script>
+    <script src="assets/json/questions.json"></script>
     </div>
 </body>
 

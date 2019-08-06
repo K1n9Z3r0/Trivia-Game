@@ -1,5 +1,24 @@
-body{
-    background-color: green;
+body {
+    background-image: url("../images/background.jpg");
+    background-color: #cccccc;
+    color: black;
+    font-weight: bold;
+   }
+#header{
+    text-align: center;
+}
+#instructions{
+    text-align: center;
+    border-block-color: green;
+}
+#start{
+    text-align: center;
+}
+#time{
+    text-align: center;
+}
+#game{
+    text-align: center;
 }
 .choices{
     border: 1px;
